@@ -1,1 +1,48 @@
-/* Copy and paste your CSS from CodePen into here */
+body {
+  background: gray;
+  margin: 1% 10%;
+  font-family: helvetica;
+}
+article {
+  background: white;
+}
+header {
+  text-align: center;
+  background-color: #fe6215;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+h1 {
+  font-size: 40px;
+}
+article {
+  padding: 1% 10%;
+}
+
+#img-div {
+  margin-top: 10px;
+  display: inline-block;
+  position: relative;
+  margin-inline: 50%;
+}
+#img-div #kenny-unhood {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 220px;
+  height: 272px;
+}
+#img-div:hover #kenny-unhood {
+  display: inline;
+}
+#img-caption {
+  font-size: 0.6em;
+}
+
+footer {
+  background: #fe6215;
+  text-align: center;
+  margin-top: 0px;
+}
